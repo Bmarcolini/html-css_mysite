@@ -1,3 +1,8 @@
+/* 
+Website: My programming asite v.1
+Author: BARBARA MARCOLINI
+*/
+
 body{
 	background: #3C487F;
 	
@@ -9,7 +14,9 @@ h1{
 	font-size: 40px;
 	text-align: center;
 }
- 
+h1:hover{
+	color:magenta;
+} 
 
 p{
 	color: #A1CBFF;
@@ -21,4 +28,13 @@ p{
 
 hr{
 	border-color: black;
+}
+
+#content{
+	width: 600px;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	background-color: gray;
+	margin:0 auto;
 }
