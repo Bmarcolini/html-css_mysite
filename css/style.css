@@ -1,14 +1,22 @@
 body{
 	background: #3C487F;
-	font-family: arial;
+	
 }
 
 h1{
 	color: white;
+	font-family: 'Futura','Trebuchet MS', Arial, sans-serif;
+	font-size: 40px;
+	text-align: center;
 }
+ 
 
 p{
 	color: #A1CBFF;
+	font-family: 'Cambria', Georgia, serif;
+	font-size: 25px;
+	line-height: 30px
+
 }
 
 hr{
