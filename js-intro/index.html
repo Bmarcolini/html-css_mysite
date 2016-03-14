@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Intro to JavaScript</title>
+</head>
+<body>
+  <div id="container"></div>
+  <h1 class="headline">Intro to JavaScript</h1>
+  <script>
+  //My first JavaScript
+  //document.write('Hello!');
+
+  //create HTML element
+  var bodytext = document.createElement('p');
+  //console.log(bodytext);
+  
+  //create text element
+  var hello = document.createTextNode('Hello!');
+  //console.log(hello);
+
+  //append text to paragraph element
+  bodytext.appendChild(hello);
+
+  var c = document.getElementById('container');
+
+  //add text to your container div
+  c.appendChild(bodytext);
+
+  //function sintax
+  var myFunc = function(param){
+  	console.log(param);
+  	var container = document.getElementById('container')
+  	console.log(container);
+  	var sub = document.createElement('h2');
+  	var name = document.createTextNode('hello,' + param);
+  	sub.appendChild(name);
+  	container.appendChild(sub);
+  }
+
+  function welcome(name){
+  	alert('Hello,' + name);
+}
+
+welcome("Meghan");
+welcome("Todd");
+welcome("Mike");
+welcome("Sherry");
+
+  </script>
+</body>
+</html>
